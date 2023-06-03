@@ -2,6 +2,8 @@
 
 This is a basic website that simulates a memory management system using the best fit, first fit, and worst fit algorithms. The simulation allows users to understand how these algorithms work and their impact on memory allocation.
 
+deployment link : https://memory-management-simulation.vercel.app/
+
 ## Table of Contents
 
 - [Introduction](#introduction)
