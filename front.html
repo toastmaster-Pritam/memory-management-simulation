@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='./best fit/style.css' rel='stylesheet' type='text/css'>
+    <title>Memory Management</title>
+</head>
+
+<body>
+
+    <div id="mainContainer">
+        <div id="title">
+            <h1>Memory Management</h1>
+            <h3>Choose the Memory Allocation Strategy</h3>
+        </div>
+        <form action="./best fit/index.html">
+            <button class="block" class="addMore"
+                title="It allocates block of memory to process which results in minimum internal fragmentation.">Best
+                Fit</button>
+        </form>
+        <form action="./first fit/index1.html">
+
+            <button class="block" class="addMore"
+                title="The first block of memory whose size is larger than process is allocated to process.">First
+                Fit</button>
+        </form>
+        <form action="./worst fit/index2.html">
+
+            <button class="block" lass="addMore"
+                title="The largest block of memory is allocated to process if it can accomodate it">Worst Fit</button>
+
+        </form>
+</body>
+
+</html>

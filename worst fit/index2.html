@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Worst Fit</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='style2.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="title">
+            <h1>Worst Fit</h1>
+            <h3>An Online Simulation</h3>
+        </div>
+        <div id="rightContainer2">
+
+            <h3><b>Worst fit</b> <br> the largest block of memory is allocated to process if it can accomodate it.
+            </h3>
+        </div>
+        <div id="rightContainer">
+            <div id="memoryContainer">
+                <div id="memory"></div>
+            </div>
+        </div>
+
+        <div id="leftContainer">
+            <h2>Add Process</h2>
+            <form id="processForm">
+                <input type="text" name="processSize" id="pSize" placeholder="Process size" autocomplete="off" />
+                <input type="text" name="processTime" id="pTime" placeholder="Process time" autocomplete="off" />
+                <button type="submit" style="display:none;" /></button>
+            </form>
+            <br><br>
+            <h2>Process Queue</h2>
+            <table id="processTable">
+                <tr>
+                    <th>Process ID</th>
+                    <th>Size (K)</th>
+                    <th>Time Units Remaining</th>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <div id="logBoxContainer">
+                <div id="logBox">DEBUG LOG<br></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
