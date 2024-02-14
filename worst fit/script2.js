@@ -172,6 +172,10 @@ document.getElementById("processForm").onsubmit = function () {
 
     let sz = parseInt(inProcessSize.value)
     let st=parseInt(inProcessTime.value)
+    if(inProcessSize.value==""||inProcessTime.value==""){
+        alert("please enter valid size and time");
+        return false;
+    }
     if (sz > mal) {
         alert("please enter size less than block size");
 
